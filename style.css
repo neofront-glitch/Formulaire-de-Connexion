@@ -255,6 +255,10 @@ footer a {
 
 /* Responsive: empiler pour les petites largueurs d'écran */
 @media (max-width: 768px) {
+	body {
+		background: #0a009b; 
+	}
+
 	.conteneur {
 		width: 100%;
 		min-height: auto;
@@ -330,6 +334,7 @@ footer a {
 	}
 
 	footer {
-		position: static;
+		position: absolute;
+		bottom: 0;
 	}
 }
