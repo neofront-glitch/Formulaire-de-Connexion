@@ -16,9 +16,7 @@ boutonConnexion.addEventListener('click', () => {
 
 if (allerInscription) {
 	allerInscription.addEventListener('click', () => {
-		// ajouter la classe pour afficher l'inscription en mobile
 		conteneur.classList.add('vue-inscription');
-		// s'assurer que le panneau droit n'interfère pas
 		conteneur.classList.remove('panneau-droit-actif');
 	});
 }
